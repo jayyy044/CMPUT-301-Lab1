@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
         Cat cat = new Cat("Lucy");
         Dog dog = new Dog("Snoopy");
         Scorpion scorpion  = new Scorpion("Scorponok");
+        Frog frog = new Frog("Ribbity");
+        Hamster hamster = new Hamster("Hammy");
+        Snake snake = new Snake("Anaconda");
 
         /*
         *   To be able to store both of these different objects into one array we need to take
@@ -64,6 +67,9 @@ public class MainActivity extends AppCompatActivity {
         petList.add(cat);
         petList.add(dog);
         petList.add(scorpion);
+        petList.add(frog);
+        petList.add(hamster);
+        petList.add(snake);
 
 //        for (Pet pet : petList) {
 //            System.out.println(pet.speak());
@@ -71,7 +77,12 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Pettable> pettablePets = new ArrayList<Pettable>();
         pettablePets.add(cat);
         pettablePets.add(dog);
+        //error
         //pettablePets.add(scorpion);
+        pettablePets.add(frog);
+        pettablePets.add(hamster);
+        //error
+        //pettablePets.add(snake);
 
 //        for (Pettable pettablePet : pettablePets){
 //            pettablePet.pet();
